@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<disco tipo="1">
+    <titulo>Catarsis</titulo>
+    <artista>Edurne</artista>
+    <pais>España</pais>
+    <discografica>MUST Producciones</discografica>
+    <precio>10,73</precio>
+    <año-lanzamiento>14 de Enero, 2022</año-lanzamiento>
+</disco>
+<disco tipo="2">
+    <titulo>11 razones</titulo>
+    <artista>Aitana</artista>
+    <pais>España</pais>
+    <discografica>UNIVERSAL</discografica>
+    <precio>8,99</precio>
+    <año-lanzamiento>11 de Diciembre, 2020</año-lanzamiento>
+</disco>
+<disco tipo="3">
+    <titulo>Sanz</titulo>
+    <artista>Alejandro Sanz</artista>
+    <pais>España</pais>
+    <discografica>UNIVERSAL</discografica>
+    <precio>12,39</precio>
+    <año-lanzamiento>10 de Diciembre, 2021</año-lanzamiento>
+</disco>
+<disco tipo="4">
+    <titulo>Fénix</titulo>
+    <artista>Antonio José</artista>
+    <pais>España</pais>
+    <discografica>UNIVERSAL</discografica>
+    <precio>15,69</precio>
+    <año-lanzamiento>4 de Marzo, 2022</año-lanzamiento>
+</disco>
+<disco tipo="5">
+    <titulo>Un piano y una luz</titulo>
+    <artista>Pablo López</artista>
+    <pais>España</pais>
+    <discografica>UNIVERSAL</discografica>
+    <precio>41,31</precio>
+    <año-lanzamiento>17 de diciembre, 2021</año-lanzamiento>
+</disco>
