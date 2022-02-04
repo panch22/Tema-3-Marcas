@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fps>
+    <rama tipo="informática y comunicaciones">
+        <ciclo numero="1">
+            <titulo>Técnico Superior en Administración de Sistemas Informáticos</titulo>
+            <duracion>2000 horas</duracion>
+            <contenidos_basicos>
+                <basico numero="1">Configurar, administrar y mantener sistemas informáticos</basico>
+            </contenidos_basicos>
+            <total_modulos>
+                <modulo ciclo="1" identificador="1">Implantación de sistemas operativos</modulo>
+                <modulo ciclo="1" identificador="2">Planificación y administración de redes</modulo>
+                <modulo ciclo="1" identificador="3">Fundamentos de hardware</modulo>
+                <modulo ciclo="1" identificador="4">Gestión de bases de datos</modulo>
+                <modulo ciclo="1" identificador="5"> Lenguajes de marcas y sistemas de gestión de información</modulo>
+                <modulo ciclo="1" identificador="6">Administración de sistemas operativos</modulo>
+                <modulo ciclo="1" identificador="7">Servicios de red e Internet</modulo>
+                <modulo ciclo="1" identificador="8"> Implantación de aplicaciones web</modulo>
+                <modulo ciclo="1" identificador="9">Administración de sistemas gestores de bases de datos</modulo>
+                <modulo ciclo="1" identificador="10"> Seguridad y alta disponibilidad</modulo>
+                <modulo ciclo="1" identificador="11">Proyecto de administración de sistemas informáticos en red</modulo>
+                <modulo ciclo="1" identificador="12">Formación y orientación laboral</modulo>
+                <modulo ciclo="1" identificador="13">Empresa e iniciativa emprendedora</modulo>
+                <modulo ciclo="1" identificador="14">Formación en centros de trabajo</modulo>  
+            </total_modulos>
+        </ciclo>
+        <ciclo numero="2">
+            <titulo>Técnico Superior en Desarollo de Aplicaciones Multiplataforma</titulo>
+            <duracion>2000 horas</duracion>
+            <contenidos_basicos>
+                <basico numero="1">Configurar y explotar sistemas informáticos</basico>
+                <basico numero="2">Gestionar bases de datos</basico>
+                <basico numero="3">Gestionar entornos de desarrollo</basico>
+                <basico numero="4">Desarrollar aplicaciones multiplataforma</basico>
+                <basico numero="5">Integrar contenidos gráficos y componentes multimedia en aplicaciones multiplataforma</basico>
+                <basico numero="6">Desarrollar interfaces gráficos de usuario interactivos y con la usabilidad adecuada</basico>
+                <basico numero="7">Desarrollar aplicaciones para teléfonos, PDA y otros dispositivos móviles empleando técnicas y entornos de desarrollo específicos</basico>            
+            </contenidos_basicos>
+            <total_modulos>
+                <modulo ciclo="2" identificador="1">Sistemas informáticos</modulo>
+                <modulo ciclo="2" identificador="2">Bases de Datos</modulo>
+                <modulo ciclo="2" identificador="3">Programación</modulo>
+                <modulo ciclo="2" identificador="4">Entornos de desarrollo</modulo>
+                <modulo ciclo="2" identificador="5">Lenguajes de marcas y sistemas de gestión de información</modulo>
+                <modulo ciclo="2" identificador="6">Acceso a datos</modulo>
+                <modulo ciclo="2" identificador="7">Desarrollo de interfaces</modulo>
+                <modulo ciclo="2" identificador="8">Programación multimedia y dispositivos móviles</modulo>
+                <modulo ciclo="2" identificador="9">Programación de servicios y procesos</modulo>
+                <modulo ciclo="2" identificador="10">Sistemas de gestión empresarial</modulo>
+                <modulo ciclo="2" identificador="11">Proyecto de desarrollo de aplicaciones multiplataforma</modulo>
+                <modulo ciclo="2" identificador="12">Formación y orientación laboral</modulo>
+                <modulo ciclo="2" identificador="13">Empresa e iniciativa emprendedora</modulo>
+                <modulo ciclo="2" identificador="14">Formación en centros de trabajo</modulo>  
+            </total_modulos>
+            <salidas_profesionales>
+                <introduccion>: Las personas con este perfil profesional ejercen su actividad en entidades públicas o privadas de cualquier tamaño, tanto por cuenta ajena como por cuenta propia, desempeñando su trabajo en el área de desarrollo de aplicaciones informáticas multiplataforma en diversos ámbitos:</introduccion>
+                <ambito numero="1">Gestión empresarial y de negocio</ambito>
+                <ambito numero="2">Relaciones con clientes</ambito>
+                <ambito numero="3">Educación</ambito>
+                <ambito numero="4">Ocio</ambito>
+                <ambito numero="5">Dispositivos móviles y entretenimiento</ambito>
+                <ambito numero="6">Aplicaciones desarrolladas e implantadas en entornos de alcance intranet, extranet e Internet</ambito>
+                <ambito numero="7">Implantación y adaptación de sistemas de planificación de recursos empresariales y de gestión de relaciones con clientes</ambito>
+            </salidas_profesionales>
+        </ciclo>
+    </rama>
+</fps>

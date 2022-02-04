@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cinematografia>
+    <pelicula numero="1">
+        <titulo>Con faldas y a lo loco</titulo>
+        <director>Billy Wilder</director>
+    </pelicula>
+    <pelicula numero="2">
+        <titulo>Sopa de ganso</titulo>
+        <director>Leo McCarey</director>
+        <autor>Barto</autor>
+    </pelicula>
+</cinematografia>
