@@ -6,7 +6,7 @@
         <pais>España</pais>
         <discografica>MUST Producciones</discografica>
         <precio>10,73</precio>
-        <año-lanzamiento>14 de Enero, 2022</año-lanzamiento>
+        <año_lanzamiento>14 de Enero, 2022</año_lanzamiento>
     </disco>
     <disco tipo="2">
         <titulo>11 razones</titulo>
@@ -14,7 +14,7 @@
         <pais>España</pais>
         <discografica>UNIVERSAL</discografica>
         <precio>8,99</precio>
-        <año-lanzamiento>11 de Diciembre, 2020</año-lanzamiento>
+        <año_lanzamiento>11 de Diciembre, 2020</año_lanzamiento>
     </disco>
     <disco tipo="3">
         <titulo>Sanz</titulo>
@@ -22,7 +22,7 @@
         <pais>España</pais>
         <discografica>UNIVERSAL</discografica>
         <precio>12,39</precio>
-        <año-lanzamiento>10 de Diciembre, 2021</año-lanzamiento>
+        <año_lanzamiento>10 de Diciembre, 2021</año_lanzamiento>
     </disco>
     <disco tipo="4">
         <titulo>Fénix</titulo>
@@ -30,7 +30,7 @@
         <pais>España</pais>
         <discografica>UNIVERSAL</discografica>
         <precio>15,69</precio>
-        <año-lanzamiento>4 de Marzo, 2022</año-lanzamiento>
+        <año_lanzamiento>4 de Marzo, 2022</año_lanzamiento>
     </disco>
     <disco tipo="5">
         <titulo>Un piano y una luz</titulo>
@@ -38,6 +38,6 @@
         <pais>España</pais>
         <discografica>UNIVERSAL</discografica>
         <precio>41,31</precio>
-        <año-lanzamiento>17 de diciembre, 2021</año-lanzamiento>
+        <año_lanzamiento>17 de diciembre, 2021</año_lanzamiento>
     </disco>
 </discografica>
