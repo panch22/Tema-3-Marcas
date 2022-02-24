@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4, versión 2 - Javascript</title>
+</head>
+<body>
+    <script type="text/Javascript">
+        var nombre, notaExamen;
+        nombre=prompt("Dime tu nombre:");
+        notaExamen=prompt("Dime tu nota de examen");
+
+        if (notaExamen < 0 || notaExamen > 10) {
+            alert("La nota introducida no es válida (debe ser un nº entre 0 y 10)");
+        } else
+            if (notaExamen >= 5 && notaExamen < 6) {
+                document.write(nombre+" estás aprobado/a con un "+notaExamen);
+            } else if (notaExamen >= 6 && notaExamen < 7)
+                document.write(nombre+" tiene un bien con un "+notaExamen);
+                else if (notaExamen >= 7 && notaExamen < 9)
+                    document.write(nombre+" tiene un notable con un "+notaExamen);
+                    else if (notaExamen >= 9 && notaExamen < 10)
+                        document.write(nombre+" tiene un sobresaliente con un "+notaExamen);
+                            else if (notaExamen == 10)
+                                document.write(nombre+" tiene matricula de honor")
+    </script>
+</body>
+</html>
