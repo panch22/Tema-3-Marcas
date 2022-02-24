@@ -10,7 +10,7 @@
     <script type="text/Javascript">
         var nombre, notaExamen2;
         nombre=prompt("Dime tu nombre:");
-        notaExamen2=prompt("Dime tu nota de examen:");
+        notaExamen2=parseFloat(prompt("Dime tu nota de examen:"));
 
         if (notaExamen2 < 0 || notaExamen2 > 10) {
             alert("La nota introducida no es válida (debe ser un nº entre 0 y 10)");
