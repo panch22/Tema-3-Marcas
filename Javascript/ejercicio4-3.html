@@ -10,12 +10,13 @@
     <script type="text/Javascript">
         var nombre, notaExamen2;
         nombre=prompt("Dime tu nombre:");
-        notaExamen2=prompt("Dime tu nota de examen");
+        notaExamen2=prompt("Dime tu nota de examen:");
 
         if (notaExamen2 < 0 || notaExamen2 > 10) {
             alert("La nota introducida no es válida (debe ser un nº entre 0 y 10)");
         } else 
             switch (notaExamen2) {
+                case 0:
                 case 1:
                 case 2:
                 case 3:
@@ -23,20 +24,20 @@
                     alert(nombre+" está suspenso con "+notaExamen2);
                     break;
                 case 5:
-                    document.write(nombre+" está aprobado con "+notaExamen2)
+                    document.write(nombre+" está aprobado con un "+notaExamen2)
                     break;
                 case 6:
-                    document.write(nombre+" tiene un bien con "+notaExamen2)
+                    document.write(nombre+" tiene un bien con un "+notaExamen2)
                     break;
                 case 7:
                 case 8:
-                    document.write(nombre+" tiene un notable con "+notaExamen2)
+                    document.write(nombre+" tiene un notable con un "+notaExamen2)
                     break;
                 case 9:
-                    document.write(nombre+" tiene un sobresaliente con "+notaExamen2)
+                    document.write(nombre+" tiene un sobresaliente con un "+notaExamen2)
                     break;
                 case 10:
-                    document.write(nombre+" tiene matrícula de honor con "+notaExamen2)
+                    document.write(nombre+" tiene matrícula de honor con un "+notaExamen2)
                     break;
             }
     </script>
