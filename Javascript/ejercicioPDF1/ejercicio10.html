@@ -8,14 +8,15 @@
 </head>
 <body>
     <script type="text/Javascript">
-        var numero = parseInt(prompt("Escriba un número:"))
-
-        function determinarPar (numero) {
-            if (numero&2 == 0) {
-                document.write("El número escrito es un número par")
-            } else
-                document.write("El número escrito es un número impar")
+        var numeroInt = parseInt(prompt("Escriba un número:"))
+        function determinarPar (numeroInt) {
+            if (numeroInt%2 == 0) {
+                return "par";
+            } else 
+               return "impar";
         }
+
+        document.write("El número insertado es "+determinarPar(numeroInt))
     </script>
 </body>
 </html>
