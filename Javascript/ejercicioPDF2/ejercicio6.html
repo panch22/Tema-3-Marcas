@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 - Estructura repetitiva DO-WHILE</title>
+</head>
+<body>
+    <script type="text/Javascript">
+        var valor;
+        do {
+            valor=parseInt(prompt('Introduce un valor entre 0 y 999:',''));
+            document.write('El valor '+valor+' ');
+            if (valor<10) {
+                document.write('tiene 1 digito');
+            } else 
+                if(valor<100) {
+                    document.write('tiene 2 digitos');
+                } else
+                    document.write('tiene 3 digitos');
+            document.write('<br>');
+        } while(valor!=0);
+        
+
+    </script>
+</body>
+</html>

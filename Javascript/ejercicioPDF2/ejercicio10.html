@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 10 - Estructura repetitiva FOR</title>
+</head>
+<body>
+    <script type="text/Javascript">
+        var numerosM15 = 0;
+        var numerosPositivos = 0;
+        var numerosNegativos = 0;
+        var totalNumerosPares = 0;
+        for (var i = 0; i<10; i++) {
+            var numero = parseInt(prompt('Introduzca un valor'));
+
+            if(numero%2 == 0) {
+                totalNumerosPares+=numero;
+            }
+
+            if(numero>0) {
+                numerosPositivos++;
+            }
+
+            if(numero<0) {
+                numerosNegativos++;
+            }
+
+            if(numero%15 == 0) {
+                numerosM15++;
+            }
+        }
+
+        document.write('Números positivos = '+numerosPositivos+'; Números negativos = '+numerosNegativos+'; Suma de los números pares = '+totalNumerosPares+'; Números múltiplos de 15 = '+numerosM15);
+    </script>
+</body>
+</html>

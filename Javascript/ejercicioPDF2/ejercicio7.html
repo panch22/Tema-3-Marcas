@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7 - Estructura repetitiva DO-WHILE</title>
+</head>
+<body>
+    <script type="text/Javascript">
+        do {
+            var nombre=prompt('Introduzca su nombre:');
+            var numeroC = parseFloat(prompt('Introduzca su número de cuenta:'));
+            var saldo = parseFloat(prompt('Introduzca su saldo'));
+            var totalSaldo = 0;
+            var sentencia = '; Estado de la cuenta';
+
+            document.write('Nombre: '+nombre+'; Número de cuenta: '+numeroC+"; Saldo: "+saldo); 
+
+            if(saldo>0) {
+                document.write(sentencia+': acreedor');
+                totalSaldo+=saldo;
+            } else if (saldo<0) {
+                document.write(sentencia+': deudor');
+            } else
+                document.whire(sentencia+': nulo ');
+                
+        } while(numeroC>0);
+        document.write('Suma de los acreedores:'+(totalSaldo));
+           
+    </script>
+</body>
+</html>
