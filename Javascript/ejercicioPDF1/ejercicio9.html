@@ -8,11 +8,27 @@
 </head>
 <body>
     <script type="text/Javascript">
-        var numero = 5, factorial = numero;
+     //Forma 1 de hacer el factorial
+        var numero = parseInt(prompt('Introduzca un número entero para sacar su factorial'));
+        var factorial = numero;
         for(var i = (numero-1); i >=1; i--) {
-            factorial = factorial * i;
+            factorial *= i;
         }
-        document.write("!"+numero+" = "+factorial)
+        document.write("!"+numero+" = "+factorial);
+
+    /*Forma 2 de hacer el factorial
+        for (var i = 1; i<= (numero-1); i++) {
+            resultado *= i;
+        }
+    */
+
+    /*Forma 3 de hacer el factorial
+        var i = numero;
+        while (i>=1) {
+            resultado *= i;
+            i--;
+        }
+    */
     </script>
 </body>
 </html>

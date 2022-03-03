@@ -19,10 +19,10 @@
 
         var i = numeroDNI%23;
 
-        if (letraDNI == letras[i]) {
-            document.write("El número y la letra del DNI son correctos");
+        if (letraDNI.toUpperCase() == letras[i]) {
+            alert("El número y la letra del DNI son correctos");
         } else
-            document.write("La letra indicada no es correcta");
+            alert("La letra indicada no es correcta. La correcta es "+letras[i].toString());
     </script> 
 </body>
 </html>
