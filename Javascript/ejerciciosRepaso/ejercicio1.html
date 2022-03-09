@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - Repaso Javascript</title>
+</head>
+<body>
+    <script type="text/Javascript">
+        var palabra = prompt("Escoja cuales de estas palabras quiere traducir: casa, coche, avión o bebe");
+        switch(palabra.toLowerCase()) {
+            case 'casa': alert("En inglés, es 'house'");
+            break;
+            case 'coche': alert("En inglés, es 'car'");
+            break;
+            case 'avion':
+            case 'avión': alert("En inglés, es 'plane'");
+            break;
+            case 'bebe': alert("En inglés, es 'baby'");
+            break;
+            default: alert("No disponemos de esa palabra en el diccionario");
+        }
+    </script>
+</body>
+</html>
