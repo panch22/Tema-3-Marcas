@@ -1,3 +1,3 @@
 # Tema-3-XML
-Ejercicios realizados en clase acerca el XML y JavaScript
+Ejercicios realizados en clase sobre XML y JavaScript
 
