@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2 - JavaScript</title>
+</head>
+<body>
+    <!-- Este script lee un número e indica si es capicúa -->
+    <script type="text/JavaScript">
+
+       var palabra, palabraInvertida, nLetras;
+        /* 1 - Leer una palabra */
+        palabra = prompt("Dime una palabra");
+
+        /* 2 - Indicar el número de letras de la palabra */
+        nLetras = palabra.length;
+        alert("El número de carácteres de la palabra son : "+nLetras);
+
+        /* 3 - Mostrar si está escrita en mayúsculas o minúsculas */
+        if(palabra == palabra.toUpperCase()) {
+            alert("La palabra está escrita en mayúsculas");
+        } else if (palabra == palabra.toLowerCase()) {
+            alert("La palabra está escrita en minúsculas");
+        } else
+            alert("La palabra está escrita en mayúsculas y minúsculas");
+
+        /* 4 - Mostrar la palabra invertida */
+        palabraInvertida = palabra.split('').reverse().join('');
+        alert("La palabra invertida se ve así : "+palabraInvertida);
+        
+        /* 5 - Indicar si la palabra leída es un palíndromo */
+        if(palabra == palabraInvertida) {
+            alert("La palabra insertada es palíndroma");
+        } else
+            alert("La palabra insertada no es palíndroma");
+    </script>
+</body>
+</html>

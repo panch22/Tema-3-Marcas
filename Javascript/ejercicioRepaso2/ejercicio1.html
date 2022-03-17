@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1 - JavaScript</title>
+</head>
+<body>
+    <!-- Este script lee un número e indica si es capicúa -->
+    <script type="text/JavaScript">
+       var numero, numeroInvertido;
+        /* 1 - Leer un número */
+        numero = prompt("Introduce un número entero");
+
+        /* 2 - Obtener el número invertido */
+        numeroInvertido = numero.split('').reverse().join('');
+        alert("El número invertido es "+numeroInvertido);
+        
+        /* 3 - Comparar el número leido y el invertido */
+        if(numero == numeroInvertido) {
+            alert("El número "+numero+" es capicúa");
+        } else
+            alert("El número "+numero+" no es capicúa");
+    </script>
+</body>
+</html>
