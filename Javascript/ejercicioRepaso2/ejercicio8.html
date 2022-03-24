@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Octavo</title>
+</head>
+<body>
+
+    <input type="button" value="Ver fecha y hora" onclick="fechaHora()">
+
+    <style>
+
+        
+    </style>
+    <script>
+        var fecha=new Date();
+        var dia= fecha.getDate().toString();
+        var mes= (fecha.getMonth()+1).toString();
+        var annio= fecha.getFullYear();
+        var fechaActual = dia+"/"+mes+"/"+annio;
+        
+        if (dia.length==1) {
+            dia = '0'+dia;
+        }
+        if (mes.length==1) {
+            mes = '0'+mes;
+        }
+        
+        document.write("La fecha actual es: "+fechaActual);   
+
+        var hora = fecha.getHours().toString();
+        var minutos = fecha.getMinutes().toString();
+        var segundos = fecha.getSeconds().toString();
+        
+        if (hora.length==1) {
+            hora = '0'+hora;
+        }
+        if (minutos.length==1) {
+            minutos = '0'+minutos;
+        }
+        if (segundos.length==1) {
+            segundos = '0'+segundos;
+        }
+
+        var horaActual = hora + ":" + minutos + ":" + segundos;
+        document.write("La hora actual es: "+horaActual);
+    </script>
+</body>
+</html>

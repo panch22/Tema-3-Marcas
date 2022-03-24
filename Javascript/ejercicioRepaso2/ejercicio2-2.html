@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2, versión 2 - JavaScript</title>
+</head>
+<body>
+    <script type="text/JavaScript">
+        var palabra = prompt("Escriba una palabra");
+
+        alert("La palabra insertada: " + palabra + nLetras(palabra) + mayMin(palabra) + "\n- Su invertida es " + invertirPalabra(palabra) + esPalindromo(palabra));
+
+        function nLetras(palabra) {
+            return "\n- Tiene "+palabra.length+" letras";
+        }
+
+        function mayMin(palabra) {
+            var alerta;
+            if(palabra == palabra.toLowerCase()) {
+                alerta = "\n- Está escrita en minúsculas";
+            } else if (palabra == palabra.toUpperCase()) {
+                alerta = "\n- Está escrita en mayúsculas";
+            } else
+                alerta = "\n- Es una combinación de mayúsculas y minúsculas";
+
+            return alerta;
+        }
+
+        function invertirPalabra(palabra) {
+            var palabraInversa = palabra.split("").reverse().join("");
+            return palabraInversa;
+        }
+
+        function esPalindromo(palabra) {
+            if(palabra == invertirPalabra(palabra)) {
+                return "\n- Es palindroma";
+            } else
+                return "\n- No es palindroma";
+        }
+
+        
+    </script>
+</body>
+</html>
