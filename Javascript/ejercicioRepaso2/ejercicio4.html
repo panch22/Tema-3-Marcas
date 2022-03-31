@@ -4,13 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuato</title>
-</head>
-<body>
-    <form>
-
-        <input type="button" value="Ver" onclick="comprobarEdad()">
-    </form>
+    <title>Ejercicio 4 - JavaScript</title>
     <style>
         form {
             box-sizing: border-box;
@@ -19,11 +13,9 @@
             text-align: left;
             margin: 0 auto;
             padding-top: 25em;
-            
         }
     </style>
-    <script>
-        
+    <script>        
         // funcion que solocita confirmación de envio
         function comprobarEdad() {
             var nombre = prompt('Meter nombre');
@@ -33,9 +25,13 @@
                 location.href='https://www.google.es'
             }else{
                 alert('Prohibido')
-            }
-            
+            }            
         }
     </script>
 </body>
+</head>
+<body>
+    <form>
+        <input type="button" value="Ver" onclick="comprobarEdad()">
+    </form>
 </html>

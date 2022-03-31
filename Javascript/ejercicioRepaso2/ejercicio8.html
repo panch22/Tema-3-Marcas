@@ -4,16 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Octavo</title>
-</head>
-<body>
-
-    <input type="button" value="Ver fecha y hora" onclick="fechaHora()">
-
-    <style>
-
-        
-    </style>
+    <title>Ejercicio 8 - Javascript</title>
     <script>
         var fecha=new Date();
         var dia= fecha.getDate().toString();
@@ -47,5 +38,8 @@
         var horaActual = hora + ":" + minutos + ":" + segundos;
         document.write("La hora actual es: "+horaActual);
     </script>
+</head>
+<body>
+    <input type="button" value="Ver fecha y hora" onclick="fechaHora()">
 </body>
 </html>
