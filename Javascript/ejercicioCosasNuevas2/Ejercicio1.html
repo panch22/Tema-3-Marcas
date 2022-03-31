@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <title>Ejercicio 1 - DOM básico</title>
-    <script type="text/javascript">
-        window.onload = function() {
-            var info = document.getElementById("informacion");
-            // Cuenta el número de enlaces de la página
+    <script type="text/Javascript">        
+        window.onload = function() {     
+            var info = document.getElementById("informacion");                 
+            // Parte 1 : Cuenta el número de enlaces de la página
+            //La variable "enlaces" es un array que contiene información de todos los enlaces de la página
+            var enlaces = document.getElementsByTagName("a");
+            var nEnlaces = enlaces.length;
+            console.log(enlaces.length);
+            //Mostramos en el info el nº de enlaces
+            info.innerHTML = "Número de enlaces total: "+nEnlaces;
 
-            // Dice la dirección del penúltimo enlace
+            /*Para lo de innerHTML, se puede realizar de dos maneras:
+            - Poner directamento informacion.innerHTML, ya que entiende ese id
+            - Declarar una variable local (en este caso, "info") y llamar al inner con ella, como se ve abajo
+            */
 
-            // Cuenta el número de enlaces que apuntan a http://prueba1
+            // Parte 2 : Dice la dirección del penúltimo enlace
+            //Añadimos en el info anterior, el último enlace de la página
+            var penultimoEnlace = enlaces[nEnlaces - 2].href;
+            info.innerHTML += "<br>" +"Último enlace: "+penultimoEnlace
 
-            // Señala el número de enlaces del tercer párrafo
+            // Parte 3 : Cuenta el número de enlaces que apuntan a http://prueba1
+            var cont = 0;
+            // hay que recorrer el array enlaces para ir comparando cada enlace con https://prueba1. Usamos, para ello, un FOR
+            for(var i = 0; i<enlaces.length; i++) {
+                if(enlaces[i].href == "http://prueba1/") {
+                    cont++;
+                }
+            }
+            //Añadimos en el info anterior, el número de enlaces que apuntan a esa dirección
+            info.innerHTML += "<br>" +"Número de veces que se señala a http://prueba1: "+cont;
 
+            // Parte 4 : Señala el número de enlaces del tercer párrafo
+            var parrafos = document.getElementsByTagName("p");
+            //Sobreescribimos la variable "enlaces".
+            enlaces = parrafos[2].getElementsByTagName("a");
+            nEnlaces = enlaces.length;
+            //Añadimos en el info anterior, el número de enlaces del tercer párrafo
+            info.innerHTML += "<br>" +"Número de enlaces del tercer párrafo: "+nEnlaces;
         }
 
     </script>
